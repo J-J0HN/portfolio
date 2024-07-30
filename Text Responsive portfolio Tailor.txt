@@ -1,6 +1,6 @@
 ========== HEADER ==========
 .nav__logo
-Tailor
+Joyal
 
 .nav__link
 Home - Work - My Info - Services - Contact Me
@@ -8,7 +8,7 @@ Home - Work - My Info - Services - Contact Me
 
 ========== HOME ==========
 .home__name
-Tailor <br> Lyborm
+Joyal <br> Lyborm
 
 .home__profession
 Web Developer
