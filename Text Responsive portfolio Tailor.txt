@@ -8,10 +8,10 @@ Home - Work - My Info - Services - Contact Me
 
 ========== HOME ==========
 .home__name
-Joyal <br> Lyborm
+Joyal <br> John
 
 .home__profession
-Web Developer
+Data Scientist
 
 .home__scroll-text
 Recent Works

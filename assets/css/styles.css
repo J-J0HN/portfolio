@@ -238,7 +238,31 @@ img {
 
 
 /*=============== HOME ===============*/
+.home__container{
+  row-gap: 2rem;
+  padding-top: 1rem;
+}
 
+.home__img{
+  width: 220px;
+  justify-self: center;
+  mask-image: linear-gradient(to bottom,
+              hsla(var(--hue), 40%, 16%) 60%,
+              transparent 90%);
+}
+
+.home__name{
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-bold);
+  word-break: break-word;
+  margin-bottom: 1rem;
+}
+
+.home__profession{
+  position: relative;
+  font-size: var(--big-font-size);
+  color: var(--text-color);
+}
 
 /* Animate scroll icon */
 
