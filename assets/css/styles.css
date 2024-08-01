@@ -232,7 +232,18 @@ img {
 }
 
 /* Add blur header */
-
+.blur-header::after{
+  content: '';
+  position: absolute;
+  width: 1000%;
+  height: 100%;
+  background-color: hsla(var(--hue), 70%, 4%, .2);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 
 /* Active link */
 
@@ -264,8 +275,58 @@ img {
   color: var(--text-color);
 }
 
-/* Animate scroll icon */
+.home__profession::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  width: 25%;
+  height: 3px;
+  background-color: var(--text-color);
+}
 
+.home__scroll{
+  color: var(--title-color);
+  display: inline-flex;
+  column-gap: .5rem;
+  align-items: center;
+  justify-self: center;
+  margin-top: 3rem;
+}
+
+.home__scroll-box{
+  background-color: var(--first-color);
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+
+.home__scroll-text{
+  font-weight: var(--font-semi-bold);
+}
+
+.home__scroll-box i {
+  animation: scroll-down 3s infinite;
+}
+
+/* Animate scroll icon */
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0.6rem);
+    opacity: 0;
+  }
+}
 
 /*=============== BUTTON ===============*/
 
