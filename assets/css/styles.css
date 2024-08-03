@@ -433,7 +433,29 @@ img {
 }
 
 /* EXPERIENCE */
+.experience__content{
+  row-gap: 2rem;
+}
 
+.experience__data{
+  row-gap: 1rem;
+}
+
+.experience__company{
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-bold);
+}
+
+.experience__profession{
+  font-size: var(--h3-font-size);
+  margin-bottom: .25rem;
+}
+
+.experience__date{
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: .75rem;
+}
 
 /* SKILLS */
 
