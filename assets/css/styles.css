@@ -4,29 +4,28 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  /* 
-        Change favorite color
-        Default: hsl(230, 55%, 55%)
-        Purple: hsl(245, 55%, 55%) - Blue: hsl(210, 55%, 55%)
-        Pink: hsl(340, 55%, 55%) - Green: hsl(162, 55%, 55%)
-        Orange: hsl(14, 55%, 55%)
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+      Change favorite color
+      Default: hsl(230, 55%, 55%) - Original
+      Complementary: hsl(50, 55%, 55%)
 
-        For more colors visit: https://colors.dopely.top/color-pedia
-        -> Choose any color 
-        -> Click on tab (Color Conversion)
-        -> Copy the color mode (HSL)
-  */
-  --hue: 230;
-  --first-color: hsl(var(--hue), 55%, 55%);
-  --first-color-light: hsl(var(--hue), 55%, 65%);
-  --first-color-alt: hsl(var(--hue), 50%, 50%);
-  --title-color: hsl(var(--hue), 30%, 95%);
-  --text-color: hsl(var(--hue), 20%, 80%);
-  --text-color-light: hsl(var(--hue), 20%, 70%);
-  --body-color: hsl(var(--hue), 40%, 16%);
-  --container-color: hsl(var(--hue), 40%, 20%);
+      For more colors visit: https://colors.dopely.top/color-pedia
+      -> Choose any color 
+      -> Click on tab (Color Conversion)
+      -> Copy the color mode (HSL)
+*/
+--hue: 50; /* Complementary color */
+--first-color: hsl(var(--hue), 55%, 55%);
+--first-color-light: hsl(var(--hue), 55%, 65%);
+--first-color-alt: hsl(var(--hue), 50%, 50%);
+--title-color: hsl(0, 0%, 95%); 
+--text-color: hsl(0, 0%, 80%); 
+--text-color-light: hsl(0, 0%, 70%); 
+--body-color: hsl(0, 0%, 10%); 
+--container-color: hsl(0, 0%, 15%); 
+
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
