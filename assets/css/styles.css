@@ -463,6 +463,26 @@ img {
   margin-bottom: .75rem;
 }
 
+.experience__row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.experience__text {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 3rem;
+}
+
+.exp__img {
+  width: 19rem;
+  max-width: 100%;
+  height: auto;
+}
+
 /* SKILLS */
 .skills__img{
   width: 50px;
